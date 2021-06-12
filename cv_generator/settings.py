@@ -26,7 +26,9 @@ SECRET_KEY = 'django-insecure-$xu0^*-j97u%jff^!jqb_5800z-iio5umc6grx^u2u44+uc2bj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'shobhit-cv-generator.herokuapp.com'
+]
 
 
 # Application definition
